@@ -8,9 +8,60 @@
     </head>
     <body>
         <div class="main-container">
+            <div class="search-city">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="" value="" placeholder="Enter your city ">
+                <button type="button" class="fa-solid fa-magnifying-glass"></button>
+            </div>
 
-        </div>
+            <div class="not-found">
+                <img class="error-404" src="./assets/404.png" alt="">
+                <p>Opps! Location not ofund :(</p>
+            </div>
 
-        <script src="index.js"></script> 
+            <div class="current-weather">
+               <img src="" alt=""> 
+                <p class="temperture"></p>
+                <p class="description"></p>
+            </div>
+            <div class="weather-details">
+
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Wind</p>
+                    </div>
+                </div>
+
+                <div class="min-temp">
+                    <i class="fa-solid fa-temperature-low"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Lowest</p>
+                    </div>
+                </div>
+                
+                <div class="max-temp">
+                    <i class="fa-solid fa-temperature-low"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Hightest</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+            <script src="index.js"></script> 
     </body>
 </html>
